@@ -46,7 +46,7 @@ public class Turtle implements Runnable, ActionListener, MouseListener, MouseMot
         new Thread(new Bob(0,0,"antiquewhite")).start();
         new Thread(new Bob2(0, -150, "green")).start();
         new Thread(new Bob3(0, 0, "yellow")).start();
-        new Thread(new Bob4(-140, -250, "brown")).start();
+        new Thread(new Bob4(-140, -350, "brown")).start();
         
     }
 
